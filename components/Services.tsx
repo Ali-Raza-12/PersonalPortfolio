@@ -14,7 +14,7 @@ const Services = () => {
                         <div className="md:w-[15%] text-white">
                             <span className="font-outfit text-2xl xl:text-3xl font-medium">{item.number}/</span>
                         </div>
-                        <div className="md:w-[40%] text-white">
+                        <div className="md:w-[40%] text-white flex items-center">
                             <i className={`${item.bootstrapIcon} text-3xl`}></i>
                             <h3 className="inline-flex pl-3 font-outfit font-medium text-2xl xl:text-3xl">{item.title}</h3>
                         </div>

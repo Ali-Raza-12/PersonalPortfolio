@@ -12,10 +12,12 @@
     "@react-google-maps/api": "^2.20.3",
     "bootstrap-icons": "^1.11.3",
     "glightbox": "^3.3.0",
+    "leaflet": "^1.9.4",
     "next": "15.0.3",
     "nodemailer": "^6.9.16",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106",
+    "react-leaflet": "^5.0.0",
     "swiper": "^11.1.15"
   },
   "devDependencies": {
