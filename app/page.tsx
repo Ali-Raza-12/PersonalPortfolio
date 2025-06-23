@@ -1,13 +1,22 @@
+"use client";
+
+
 import About from "@/components/About";
 import Awards from "@/components/Awards";
 import Blog from "@/components/Blog";
 import Clients from "@/components/Clients";
 import Contact from "@/components/Contact";
 import Hero from "@/components/Hero";
-import Map from "@/components/Map";
+// import Map from "@/components/Map";
 import Portfolio from "@/components/Portfolio";
 import Services from "@/components/Services";
 import Testimonial from "@/components/Testimonial";
+
+import dynamic from "next/dynamic";
+
+const Map = dynamic(() => import("@/components/Map"), {
+    ssr: false,
+});
 
 export default function Home() {
     return (
